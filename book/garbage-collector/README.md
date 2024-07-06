@@ -669,7 +669,7 @@ $ dune exec -- ./finalizer.exe
 The GC calls the finalization functions in the order of the deallocation. If
 several values become unreachable during the same GC cycle, the finalization
 functions will be called in the reverse order of the corresponding calls to
-`add_finalizer`. Each call to `add_finalizer` adds to the set of functions,
+`add_finalizer`. Each call to `add_finalizer` adds to the set of functions
 which are run when the value becomes unreachable. You can have many
 finalizers all pointing to the same heap block if you wish.
 
