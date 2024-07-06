@@ -845,8 +845,10 @@ library/DuckDuckGo searching example]{.idx}
   [Handling Json Data](json.html#handling-json-data){data-type=xref}.
 
 `cohttp`
-: A library for creating HTTP clients and servers. We need Async support,
-  which comes with the `cohttp-async` package.
+: A library for creating HTTP clients and servers. 
+
+`cohttp-async`
+: A package providing Async support for `cohttp`.
 
 Now let's dive into the implementation.
 
