@@ -340,7 +340,7 @@ val pages : int = 450
 The `tags` field is similar to `title`, but the field is a list of strings
 instead of a single one. Converting this to an OCaml `string list` is a
 two-stage process. First, we convert the JSON `List` to an OCaml list of JSON
-values and then filter out the `String` values as an OCaml `string list`.
+values and then filter out the `String` values into an OCaml `string list`.
 Remember that OCaml lists must contain values of the same type, so any JSON
 values that cannot be converted to a `string` will be skipped from the output
 of `filter_string`:
