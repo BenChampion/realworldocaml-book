@@ -196,7 +196,7 @@ OK
 The `from_file` function accepts an input filename and takes care of opening
 and closing it for you. It's far more common to use `from_string` to
 construct JSON values though, since these strings come in via a network
-connection (we'll see more of this in
+connection (we see more of this in
 [Concurrent Programming With Async](concurrent-programming.html#concurrent-programming-with-async){data-type=xref})
 or a database. Finally, the example checks that the two input mechanisms
 actually resulted in the same OCaml data structure.
